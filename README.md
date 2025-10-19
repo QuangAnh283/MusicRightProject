@@ -157,7 +157,7 @@ Bạn có thể tự do sao chép, chỉnh sửa và triển khai với ghi nh�
 
 ## 👨‍💻 Tác giả
 
-* **Tên:**Bạch Quang Anh, Phạm Thế Minh, Hoàng Hà Phong.
+* **Tên:** Bạch Quang Anh, Phạm Thế Minh, Hoàng Hà Phong.
 * **Trường:** Công nghệ thông tin, Đại Học Phenikaa.
 * **Ngành:** Công nghệ Thông tin Việt Nhật.
 
