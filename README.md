@@ -27,7 +27,7 @@ Dự án được xây dựng theo **cấu trúc chuẩn Soroban**, dễ dàng m
 
 ## ⚙️ Công nghệ sử dụng
 
-* **Rust** (phiên bản ≥ 1.78.0, khuyến nghị 1.79+)
+* **Rust** (phiên bản 1.90.0)
 * **Soroban SDK** v23.0.2
 * **Stellar CLI / Soroban CLI**
 * **WASM** cho việc biên dịch hợp đồng
@@ -54,8 +54,8 @@ soroban --version
 ### 2️⃣ Thiết lập tài khoản trên Testnet
 
 ```bash
-soroban keys generate alice
-soroban keys fund alice --network testnet
+soroban keys generate test
+soroban keys fund test --network testnet
 ```
 
 ### 3️⃣ Kiểm tra cấu hình tài khoản
@@ -93,8 +93,8 @@ cargo test
 Nếu mọi thứ hợp lệ, kết quả sẽ hiển thị:
 
 ```
-running 2 tests
-test result: ok. 2 passed; 0 failed;
+running n tests
+test result: ok. 2 passed; 0 failed;...
 ```
 
 ---
@@ -104,7 +104,7 @@ test result: ok. 2 passed; 0 failed;
 ```bash
 soroban contract deploy \
   --wasm target/wasm32v1-none/release/hello_world.wasm \
-  --source-account alice \
+  --source-account test \
   --network testnet \
   --alias royalty_contract
 ```
@@ -157,8 +157,8 @@ Bạn có thể tự do sao chép, chỉnh sửa và triển khai với ghi nh�
 
 ## 👨‍💻 Tác giả
 
-* **Tên:**Bạch Quang Anh, Phạm Thế Minh, Hoàng Hà Phong
-* **Trường:** Phenikaa University
-* **Ngành:** Công nghệ Thông tin (Web, Mobile & Software)
+* **Tên:**Bạch Quang Anh, Phạm Thế Minh, Hoàng Hà Phong.
+* **Trường:** Công nghệ thông tin, Đại Học Phenikaa.
+* **Ngành:** Công nghệ Thông tin Việt Nhật.
 
 
